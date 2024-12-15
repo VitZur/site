@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #ff6f00; /* Оранжевый цвет */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.product {
+    display: flex;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.product-image {
+    max-width: 200px; /* Ширина изображения */
+    margin-right: 20px;
+}
+
+.product-details {
+    flex: 1; /* Занимает оставшееся пространство */
+}
+
+h2, h3, h4 {
+    color: #333;
+}
+
+button.add-to-cart {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.add-to-cart:hover {
+    background-color: #218838;
+}
+
+.center-button {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.kilo-button {
+    background-color: #ff6f00; /* Оранжевый цвет */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.kilo-button:hover {
+    background-color: #e65c00; /* Темнее оранжевый при наведении */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
